@@ -1,0 +1,5 @@
+mongodb/data/mongod.lock
+mongodb/data/storage.bson
+mongodb/data/WiredTiger
+mongodb/data/WiredTiger.lock
+mongodb/data/WiredTiger.turtle
