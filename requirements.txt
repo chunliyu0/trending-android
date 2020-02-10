@@ -1,6 +1,5 @@
 alabaster==0.7.12
 appnope==0.1.0
-arrow==0.15.2
 astroid==2.3.2
 astropy==3.2.2
 atomicwrites==1.3.0
@@ -16,7 +15,6 @@ botocore==1.12.250
 certifi==2019.6.16
 cffi==1.12.3
 chardet==3.0.4
--e git+https://github.com/quantiply-labs/dslab-HongYu.git@c0ec3aec09268110bf1726ab5423306346348ea9#egg=chicagocrime
 Click==7.0
 cloudpickle==1.2.2
 colorama==0.4.1
@@ -42,20 +40,13 @@ Flask==1.1.1
 Flask-Bootstrap==3.3.7.1
 funcsigs==1.0.2
 future==0.18.0
-h2o==3.26.0.8
--e git://github.com/pyviz/holoviews.git@b20132fd45db56c60eca4f1f4bed466c67dbea23#egg=holoviews
 htmlmin==0.1.12
 hyperlink==19.0.0
 idna==2.8
 imageio==2.6.1
 imagesize==1.1.0
-imbalanced-learn==0.5.0
 importlib-metadata==0.20
 incremental==17.5.0
-ipykernel==5.1.2
-ipython==7.8.0
-ipython-genutils==0.2.0
-ipywidgets==7.5.1
 isort==4.3.21
 itsdangerous==1.1.0
 jedi==0.15.1
@@ -109,8 +100,6 @@ PDPbox==0.2.0
 pexpect==4.7.0
 phik==0.9.8
 pickleshare==0.7.5
-Pillow==6.1.0
-pipenv==2018.11.26
 pluggy==0.12.0
 poyo==0.5.0
 prometheus-client==0.7.1
@@ -126,7 +115,6 @@ pycodestyle==2.5.0
 pycosat==0.6.3
 pycparser==2.19
 PyDispatcher==2.0.5
--e git+git@gitlab-internal.parc.com:hyu/fibridge_phase2.git@6caaf35d3d6e4788e3930686250057ad0af87b9e#egg=pyfibridge
 pyflakes==2.1.1
 Pygments==2.4.2
 PyHamcrest==2.0.0
@@ -157,9 +145,6 @@ rsa==3.4.2
 ruamel.yaml==0.16.5
 ruamel.yaml.clib==0.2.0
 s3transfer==0.2.1
-scikit-image==0.14.0
-scikit-learn==0.21.3
-scipy==1.3.1
 Scrapy==1.8.0
 seaborn==0.9.0
 Send2Trash==1.5.0
