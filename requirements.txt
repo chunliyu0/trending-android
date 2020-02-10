@@ -40,6 +40,7 @@ Flask==1.1.1
 Flask-Bootstrap==3.3.7.1
 funcsigs==1.0.2
 future==0.18.0
+gunicorn==20.0.4
 htmlmin==0.1.12
 hyperlink==19.0.0
 idna==2.8
