@@ -1,8 +1,7 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
+from stackoverflow import fetch_data
 
-from stackoverflow.items import StackoverflowItem
-import fetch_data
 app = Flask(__name__, static_url_path='', root_path='./')
 bootstrap = Bootstrap(app)
 
@@ -14,8 +13,6 @@ def index():
                            newest_questions=data['newest_questions'],
                            most_voted_questions = data['most_voted_questions'],
                            answer_html = answer_html)
-
-    # return app.send_static_file('index.html')
 
 if __name__ =='__main__':
     app.run(host='127.0.0.1',port=5000,debug=True)
