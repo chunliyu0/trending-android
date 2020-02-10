@@ -17,7 +17,7 @@ class StackoverflowPipeline(object):
 
     def enough_days_collected(self,item):
         asked_time = parse(item['asked_time'][0])
-        return (datetime.now(tz=asked_time.tzinfo) - asked_time)>=timedelta(minutes=30)
+        return (datetime.now(tz=asked_time.tzinfo) - asked_time) >= timedelta(minutes=30)
 
     def process_item(self, item, spider):
         if not self.connection or not item:

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trending Android Questions in Past Week</title>
+</head>
+<body>
+<h1>Trending Android Questions in Past Week</h1>
+
+<div>
+    <div id="div1" style="width:600px; height:auto; float:left; display:inline">
+        <h2> 10 Newest </h2>
+        <ol>
+            {% for question in newest_questions %}
+            <li>{{question.question_title}}</li>
+            <p>{{ question.question_excerpt }}</p>
+            {% endfor %}
+        </ol>
+    </div>
+       
+    <div id="div2" style="float:left; display:inline">
+        <h2> 10 most voted</h2>
+        <ol>
+            {% for question in most_voted_questions %}
+            <li>{{question.question_title}}</li>
+            <p>{{ question.question_excerpt }}</p>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+</div>
+
+<div>
+    {{ answer_html |safe}}
+</div>
+
+</body>
+<footer>
+    by Chunli Yu, chunliyu0@gmail.com
+</footer>
+</html>

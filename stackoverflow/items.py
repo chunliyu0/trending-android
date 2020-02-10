@@ -20,6 +20,7 @@ class StackoverflowItem(scrapy.Item):
     answers = scrapy.Field()
     views = scrapy.Field()
     links = scrapy.Field()
+    tags = scrapy.Field()
 
 
     # pass
