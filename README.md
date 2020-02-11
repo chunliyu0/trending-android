@@ -13,9 +13,9 @@ The output is a webpage displaying the requested information.
 
 The result webpage can be accessed publicly here:
 
-TODO.
+[Trending Android](trending-android.herokuapp.com)
 
-This is a graphical overview of the webpage:
+Here is a graphical overview of the webpage:
 
 ![image-20200210082536619](readme-medium/demo-page.png)
 
@@ -26,6 +26,8 @@ The key steps to accomplish this task are:
 2). To extract desired information from HTML;
 3). For future reuse, save parsed information to a database (mongodb in this case); and 
 4). to display the information on a webpage. 
+
+![flowchart](flowchart.png)
 
 Many modern programming languages provide built-in packages for internet connection via HTTP (`requests package in Python` for example). In addition to the built-in package, there are multiple third-party packages that provide more functionality. In `Python` ecosystem, `Scrapy` is a powerful tool that can tackle the first two problems. `Flask`-a lightweight WSGI web application framework-is used for displaying the result in a webpage. 
 
@@ -63,7 +65,7 @@ Many modern programming languages provide built-in packages for internet connect
 
 - Python 3.x
 
-  More python depencies can be found in the `requirements.txt` file.
+  More python dependencies can be found in the `requirements.txt` file.
 
 ## How to Run
 
@@ -78,8 +80,10 @@ Many modern programming languages provide built-in packages for internet connect
 7. Refresh web page to grab new data
 
 ### Deploy on Heroku
+The resulting web page can be viewed here:
+[Trending Android](trending-android.herokuapp.com)
 
-To do.
+Refer to Heroku documentation on deploying python apps.
 
 ## Reflections
 
